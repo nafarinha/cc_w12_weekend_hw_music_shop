@@ -6,22 +6,22 @@ You are being asked to model a music shop. This shop will contain items which ca
 
 You will need to:
 
-1. Create a IPlay interface that could be applied to instruments. This should have a play method that returns the sound of the instrument being played as a String. :white_check_mark:
+1. Create a Interfaces.IPlay interface that could be applied to instruments. This should have a play method that returns the sound of the instrument being played as a String. :white_check_mark:
 
 2. Create classes for different types of instruments e.g. guitars, pianos, etc. (any you can think of). Each class will have its own instance variables for attributes particular to that instrument e.g. a guitar may have a number of strings, a trumpet may have a number of valves etc. 
 
 3. Create an instruments.Instrument superclass which contains attributes you see as being common to all instruments e.g. material it is made from, colour, type (Brass, String, Woodwind, Keyboard etc). The classes created in step 2 above can then inherit from this Instruments class. 
 
-4. Create a ISell interface which has a calculateMarkup method, which returns an int/double, based on the buying price and the selling price. :white_check_mark:
+4. Create a Interfaces.ISell interface which has a calculateMarkup method, which returns an int/double, based on the buying price and the selling price. :white_check_mark:
 
-5. Create classes for items the shop may sell, i.e. which implement the ISell interface. Such items should have the following:
+5. Create classes for items the shop may sell, i.e. which implement the Interfaces.ISell interface. Such items should have the following:
   - a type/description e.g. guitar, drum sticks, guitar strings, sheet music etc.
   - a price at which the shop bought the item.
   - a price at which the shop plans to sell the item.
 
-  Some ISell items will be musical instruments i.e. instruments can be both IPlay and ISell.
+  Some Interfaces.ISell items will be musical instruments i.e. instruments can be both Interfaces.IPlay and Interfaces.ISell.
 
-6. Create a Shop class, which has a collection of ISell items, called stock. In your shop you should be able to:
+6. Create a Shop class, which has a collection of Interfaces.ISell items, called stock. In your shop you should be able to:
   -  add items to stock.
   -  remove items from stock.
 
