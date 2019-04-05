@@ -5,16 +5,18 @@ import Interfaces.ISell;
 
 public abstract class Instrument implements IPlay, ISell {
 
-    private String make, model, material, colour;
+    private String make, model, colour;
     private double purchasePrice, salePrice;
     private InstrumentType type;
 
-    public Instrument(String make, String model, String material, String colour, InstrumentType type ) {
+    public Instrument(String make, String model, String colour, InstrumentType type ) {
         this.make = make;
         this.model = model;
-        this.material = material;
         this.colour = colour;
         this.type = type;
+        this.purchasePrice = 0;
+        this.salePrice = 0;
+
     };
 
     public String getMake() {
@@ -23,10 +25,6 @@ public abstract class Instrument implements IPlay, ISell {
 
     public String getModel() {
         return model;
-    }
-
-    public String getMaterial() {
-        return material;
     }
 
     public String getColour() {
@@ -52,6 +50,14 @@ public abstract class Instrument implements IPlay, ISell {
     public InstrumentType getType() {
         return type;
     }
+
+    public double calculateMarkup() {
+        return (getSalePrice()/getPurchasePrice()) - 1;
+    }
+
+    public String play(String sound) {
+        return sound;
+    };
 
 
 }
