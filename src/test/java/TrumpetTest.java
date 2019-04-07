@@ -57,8 +57,8 @@ public class TrumpetTest {
     }
 
     @Test
-    public void canGetType() {
-        assertEquals(InstrumentClassification.BRASS, trumpet1.getType());
+    public void canGetClassification() {
+        assertEquals(InstrumentClassification.BRASS, trumpet1.getClassification());
     }
 
     @Test

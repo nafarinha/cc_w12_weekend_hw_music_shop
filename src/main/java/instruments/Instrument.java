@@ -47,7 +47,7 @@ public abstract class Instrument implements IPlay, ISell {
         this.salePrice = salePrice;
     }
 
-    public InstrumentClassification getType() {
+    public InstrumentClassification getClassification() {
         return classification;
     }
 
