@@ -19,7 +19,7 @@ You will need to:
   - a price at which the shop bought the item.
   - a price at which the shop plans to sell the item.
 
-  Some Interfaces.ISell items will be musical instruments i.e. instruments can be both Interfaces.IPlay and Interfaces.ISell.
+  Some Interfaces.ISell items will be musical instruments i.e. instruments can be both Interfaces.IPlay and Interfaces.ISell. :white_check_mark:
 
 6. Create a Shop class, which has a collection of Interfaces.ISell items, called stock. In your shop you should be able to:
   -  add items to stock.
