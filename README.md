@@ -27,7 +27,7 @@ You will need to:
 
 # Possible Extensions
 
-1. Using the calculateMarkup method for each item in stock, create a method which gives the total potential profit for the shop.
+1. Using the calculateMarkup method for each item in stock, create a method which gives the total potential profit for the shop. :white_check_mark:
 2. Create and use an enum for instrument types e.g. keyboard, wind, brass etc :white_check_mark:
 3. Any other extensions you may wish to add.
 

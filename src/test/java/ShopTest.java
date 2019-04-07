@@ -53,7 +53,7 @@ public class ShopTest {
         assertEquals(3, shop1.getStock().size());
     }
 
-/*    @Test
+    @Test
     public void canCalculatePotentialProfit() {
         guitar1.setPurchasePrice(1000);
         guitar1.setSalePrice(1500);
@@ -71,7 +71,7 @@ public class ShopTest {
         pedal1.setSalePrice(90);
 
         shop1.addToStock(guitar1, piano1, trumpet1, amp1, pedal1);
-        assertEquals(100000, shop1.calculatePotentialProfit());
-    }*/
+        assertEquals(30710, shop1.calculatePotentialProfit(), 0);
+    }
 
 }
