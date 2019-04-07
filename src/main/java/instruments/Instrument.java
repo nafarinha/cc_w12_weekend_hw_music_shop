@@ -7,13 +7,13 @@ public abstract class Instrument implements IPlay, ISell {
 
     private String make, model, colour;
     private double purchasePrice, salePrice;
-    private InstrumentType type;
+    private InstrumentClassification classification;
 
-    public Instrument(String make, String model, String colour, InstrumentType type ) {
+    public Instrument(String make, String model, String colour, InstrumentClassification classification ) {
         this.make = make;
         this.model = model;
         this.colour = colour;
-        this.type = type;
+        this.classification = classification;
         this.purchasePrice = 0;
         this.salePrice = 0;
 
@@ -47,8 +47,8 @@ public abstract class Instrument implements IPlay, ISell {
         this.salePrice = salePrice;
     }
 
-    public InstrumentType getType() {
-        return type;
+    public InstrumentClassification getType() {
+        return classification;
     }
 
     public double calculateMarkup() {

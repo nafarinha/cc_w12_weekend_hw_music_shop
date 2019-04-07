@@ -1,6 +1,6 @@
 package instruments;
 
-public enum InstrumentType {
+public enum InstrumentClassification {
     STRINGS,
     BRASS,
     WOODWIND,
