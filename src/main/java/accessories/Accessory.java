@@ -4,17 +4,29 @@ import Interfaces.ISell;
 
 public class Accessory implements ISell {
 
-    private String description;
+    private String make;
+    private String model;
+    private String type;
     private double purchasePrice, salePrice;
 
-    public Accessory(String description) {
-        this.description = description;
+    public Accessory(String make, String model, String type) {
+        this.make = make;
+        this.model = model;
+        this.type = type;
         this.purchasePrice = 0;
         this.salePrice = 0;
     }
 
-    public String getDescription() {
-        return this.description;
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getType() {
+        return type;
     }
 
     public double getPurchasePrice() {
