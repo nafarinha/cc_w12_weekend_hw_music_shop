@@ -8,9 +8,9 @@ You will need to:
 
 1. Create a Interfaces.IPlay interface that could be applied to instruments. This should have a play method that returns the sound of the instrument being played as a String. :white_check_mark:
 
-2. Create classes for different types of instruments e.g. guitars, pianos, etc. (any you can think of). Each class will have its own instance variables for attributes particular to that instrument e.g. a guitar may have a number of strings, a trumpet may have a number of valves etc. 
+2. Create classes for different types of instruments e.g. guitars, pianos, etc. (any you can think of). Each class will have its own instance variables for attributes particular to that instrument e.g. a guitar may have a number of strings, a trumpet may have a number of valves etc. :white_check_mark:
 
-3. Create an instruments.Instrument superclass which contains attributes you see as being common to all instruments e.g. material it is made from, colour, type (Brass, String, Woodwind, Keyboard etc). The classes created in step 2 above can then inherit from this Instruments class. 
+3. Create an instruments.Instrument superclass which contains attributes you see as being common to all instruments e.g. material it is made from, colour, type (Brass, String, Woodwind, Keyboard etc). The classes created in step 2 above can then inherit from this Instruments class. :white_check_mark:
 
 4. Create a Interfaces.ISell interface which has a calculateMarkup method, which returns an int/double, based on the buying price and the selling price. :white_check_mark:
 
