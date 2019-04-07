@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class PedalTest {
 
@@ -21,6 +22,11 @@ public class PedalTest {
     @Test
     public void canGetModel() {
         assertEquals("Tube Screamer TS9", pedal1.getModel());
+    }
+
+    @Test
+    public void canGetType() {
+        assertEquals("Overdrive", pedal1.getType());
     }
 
     @Test
