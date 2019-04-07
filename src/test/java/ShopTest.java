@@ -46,4 +46,11 @@ public class ShopTest {
         assertEquals(5, shop1.getStock().size());
     }
 
+    @Test
+    public void canRemoveProductsFromStock() {
+        shop1.addToStock(guitar1, piano1, trumpet1, amp1, pedal1);
+        shop1.removeFromStock(piano1, trumpet1);
+        assertEquals(3, shop1.getStock().size());
+    }
+
 }
