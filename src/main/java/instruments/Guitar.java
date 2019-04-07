@@ -12,5 +12,9 @@ public class Guitar extends Instrument  {
         return numStrings;
     }
 
+    public String play() {
+        return "Chunka Chunk";
+    }
+
 
 }

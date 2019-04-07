@@ -1,7 +1,5 @@
 package instruments;
 
-import Interfaces.IPlay;
-
 public class Piano extends Instrument {
 
     private String type;
@@ -14,5 +12,9 @@ public class Piano extends Instrument {
 
     public String getType() {
         return this.type;
+    }
+
+    public String play() {
+        return "plink plink plink";
     }
 }

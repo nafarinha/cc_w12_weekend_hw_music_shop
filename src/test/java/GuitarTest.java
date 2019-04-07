@@ -71,7 +71,7 @@ public class GuitarTest {
 
     @Test
     public void canPlaySound() {
-        assertEquals("Chunka Chunk", guitar1.play("Chunka Chunk"));
+        assertEquals("Chunka Chunk", guitar1.play());
     }
 
 

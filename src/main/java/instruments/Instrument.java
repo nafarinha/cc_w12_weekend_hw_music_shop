@@ -32,9 +32,4 @@ public abstract class Instrument extends Product implements IPlay {
         return classification;
     }
 
-    public String play(String sound) {
-        return sound;
-    };
-
-
 }
