@@ -40,4 +40,10 @@ public class ShopTest {
         assertEquals(0, shop1.getStock().size());
     }
 
+    @Test
+    public void canHadProductsToStock() {
+        shop1.addToStock(guitar1, piano1, trumpet1, amp1, pedal1);
+        assertEquals(5, shop1.getStock().size());
+    }
+
 }
