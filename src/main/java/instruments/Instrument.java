@@ -1,12 +1,11 @@
 package instruments;
 
 import Interfaces.IPlay;
-import Interfaces.ISell;
+import products.Product;
 
-public abstract class Instrument implements IPlay, ISell {
+public abstract class Instrument extends Product implements IPlay {
 
     private String make, model, colour;
-    private double purchasePrice, salePrice;
     private InstrumentClassification classification;
 
     public Instrument(String make, String model, String colour, InstrumentClassification classification ) {
@@ -14,8 +13,6 @@ public abstract class Instrument implements IPlay, ISell {
         this.model = model;
         this.colour = colour;
         this.classification = classification;
-        this.purchasePrice = 0;
-        this.salePrice = 0;
 
     };
 
@@ -31,28 +28,8 @@ public abstract class Instrument implements IPlay, ISell {
         return colour;
     }
 
-    public double getPurchasePrice() {
-        return purchasePrice;
-    }
-
-    public void setPurchasePrice(double purchasePrice) {
-        this.purchasePrice = purchasePrice;
-    }
-
-    public double getSalePrice() {
-        return salePrice;
-    }
-
-    public void setSalePrice(double salePrice) {
-        this.salePrice = salePrice;
-    }
-
     public InstrumentClassification getClassification() {
         return classification;
-    }
-
-    public double calculateMarkup() {
-        return (getSalePrice()/getPurchasePrice()) - 1;
     }
 
     public String play(String sound) {

@@ -22,13 +22,13 @@ You will need to:
   Some Interfaces.ISell items will be musical instruments i.e. instruments can be both Interfaces.IPlay and Interfaces.ISell. :white_check_mark:
 
 6. Create a Shop class, which has a collection of Interfaces.ISell items, called stock. In your shop you should be able to:
-  -  add items to stock.
-  -  remove items from stock.
+  -  add items to stock. :white_check_mark:
+  -  remove items from stock. :white_check_mark:
 
 # Possible Extensions
 
 1. Using the calculateMarkup method for each item in stock, create a method which gives the total potential profit for the shop.
-2. Create and use an enum for instrument types e.g. keyboard, wind, brass etc
+2. Create and use an enum for instrument types e.g. keyboard, wind, brass etc :white_check_mark:
 3. Any other extensions you may wish to add.
 
 ## Remember

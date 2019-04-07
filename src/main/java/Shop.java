@@ -1,4 +1,5 @@
 import Interfaces.ISell;
+import instruments.Instrument;
 
 import java.util.ArrayList;
 
@@ -31,4 +32,12 @@ public class Shop {
             this.stock.remove(product);
         }
     }
+
+/*    public int calculatePotentialProfit() {
+        double totalPotentialProfit = 0;
+        for (ISell product : this.stock) {
+           totalPotentialProfit += ( ((Instrument) product).getPurchasePrice() )
+        }
+
+    }*/
 }

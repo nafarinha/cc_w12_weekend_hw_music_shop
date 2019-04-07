@@ -53,4 +53,25 @@ public class ShopTest {
         assertEquals(3, shop1.getStock().size());
     }
 
+/*    @Test
+    public void canCalculatePotentialProfit() {
+        guitar1.setPurchasePrice(1000);
+        guitar1.setSalePrice(1500);
+
+        piano1.setPurchasePrice(40000);
+        piano1.setSalePrice(60000);
+
+        trumpet1.setPurchasePrice(5000);
+        trumpet1.setSalePrice(15000);
+
+        amp1.setPurchasePrice(400);
+        amp1.setSalePrice(600);
+
+        pedal1.setPurchasePrice(80);
+        pedal1.setSalePrice(90);
+
+        shop1.addToStock(guitar1, piano1, trumpet1, amp1, pedal1);
+        assertEquals(100000, shop1.calculatePotentialProfit());
+    }*/
+
 }
