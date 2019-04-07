@@ -30,32 +30,3 @@ You will need to:
 1. Using the calculateMarkup method for each item in stock, create a method which gives the total potential profit for the shop. :white_check_mark:
 2. Create and use an enum for instrument types e.g. keyboard, wind, brass etc :white_check_mark:
 3. Any other extensions you may wish to add.
-
-## Remember
-Use TDD, with separate test files for each class.
-
-
-### PDA Reminder:
-
-As part of this homework you are required to take screenshots of the following:
-
-```
- - Demonstrate the use of Polymorphism in a program.
- - An Inheritance Diagram
-```
-
-Take a screenshot of the use of Inheritance in a program. Take screenshots of: 
-
-```
- - A Class
- - A Class that inherits from the previous class
- - An Object in the inherited class
- - A Method that uses the information inherited from another class.
-```
-
-
-- Go to your [PDA Checklist](https://github.com/codeclan/pda/tree/master/Evidence%20Gathering%20Portfolio)
-
-- Submit your PDA evidence (screenshots, etc.) to your own PDA repo
-
-- PDA Reference: I.T 2, I.T 7, A.D 5
