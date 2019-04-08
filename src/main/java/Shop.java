@@ -1,5 +1,4 @@
 import Interfaces.ISell;
-import products.Product;
 
 import java.util.ArrayList;
 
@@ -36,7 +35,7 @@ public class Shop {
     public double calculatePotentialProfit() {
         double totalPotentialProfit = 0;
         for (ISell item : this.stock) {
-           totalPotentialProfit += (((Product) item).getPurchasePrice() * item.calculateMarkup());
+           totalPotentialProfit += (item.getPurchasePrice() * item.calculateMarkup());
         }
         return totalPotentialProfit;
     }
